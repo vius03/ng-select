@@ -49,7 +49,7 @@ import { Subject, Observable, of, concat } from 'rxjs';
                    bindLabel="name"
                    [addTag]="true"
                    [multiple]="true"
-                   [hideSelected]="true"
+                   [hideSelected]="false"
                    [loading]="people3Loading"
                    [typeahead]="people3input$"
                    [(ngModel)]="selectedPersons">
